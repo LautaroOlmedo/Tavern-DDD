@@ -2,7 +2,7 @@
 
 El diseño guiado por el dominio, en inglés: domain-driven design (DDD), es un enfoque para el desarrollo de software con necesidades complejas mediante una profunda conexión entre la implementación y los conceptos del modelo y núcleo del negocio.
 
-El DDD no es una tecnología ni una metodología, este provee una estructura de prácticas y terminologías para tomar decisiones de diseño que enfoquen y aceleren el manejo de dominios complejos en los proyectos de software.
+DDD no es una tecnología ni una metodología, este provee una estructura de prácticas y terminologías para tomar decisiones de diseño que enfoquen y aceleren el manejo de dominios complejos en los proyectos de software.
 
 El término fue acuñado por Eric Evans en su libro "Domain-Driven Design - Tackling Complexity in the Heart of Software".
 

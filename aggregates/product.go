@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	ErrInvalidItem = errors.New("a customer has to have a valid name")
+	ErrInvalidItem = errors.New("the name and description fields are required")
 )
 
 type Product struct {
@@ -16,7 +16,7 @@ type Product struct {
 	quantity int
 }
 
-func newProduct(name, description string, price float64) (Product, error) {
+func NewProduct(name, description string, price float64) (Product, error) {
 	if name == "" || description == "" {
 		return Product{}, ErrInvalidItem
 	}

@@ -34,3 +34,11 @@ func NewCustomer(name string) (Customer, error) {
 	}, nil
 
 }
+
+func (c *Customer) GetId() uuid.UUID {
+	return c.person.ID
+}
+
+func (c *Customer) setId(id uuid.UUID) {
+	c.person.ID = id
+}
